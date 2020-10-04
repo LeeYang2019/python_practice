@@ -29,4 +29,20 @@ print(sum(newStudent_Grades.values()))
 
 myList = [{"marry": 25, "student": True}, {"john": 25, "student": False}]
 
-print(sum(myList.__dict__.values()))
+dataTuple = (1, 2, 3)
+list(dataTuple)
+
+print(dataTuple)
+
+listData = [1, 2, 3]
+tuple(listData)
+
+print(listData)
+
+newList = [["name", "john"], ["surname", "johnson"]]
+dict(newList)
+
+print(newList)
+
+newTmpList = [1,4,5,8,7,5]
+
