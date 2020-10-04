@@ -35,6 +35,7 @@ print(returnNum((25, 26, 27, 28), 25))
 # with if else
 
 def removeNegative(list):
+    #return t if not -9999 else convert -9999 to 0
     return [t if t != -9999 else 0 for t in list]
 
 print(removeNegative([221, 234, 340, -9999, 230]))
@@ -42,6 +43,7 @@ print(removeNegative([221, 234, 340, -9999, 230]))
 # with str formatting
 
 def returnSum(list):
+    # return l if not string else convert str to float
     return sum([l if type(l) != str else float(l) for l in list])
 
 print(returnSum([22.5, '23.4']))
